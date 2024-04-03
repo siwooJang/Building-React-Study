@@ -9,4 +9,4 @@ https://siwoojang.notion.site/React-1-4ea8e3a7692543feba7a981c2d9d3338?pvs=4
 
 자기 소개 웹페이지 만들기
 
-웹개발 기초 내용 정리 : https://siwoojang.notion.site/HTML-CSS-d3ab76bb45004660904dd17001d64c7f?pvs=4
+초간단 웹개발(HTML CSS) 정리 => https://siwoojang.notion.site/HTML-CSS-d3ab76bb45004660904dd17001d64c7f?pvs=4
