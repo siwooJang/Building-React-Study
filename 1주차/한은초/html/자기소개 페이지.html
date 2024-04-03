@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한은초의 프로필</title>
+  </head>
+  <body class="main-screen">
+    <h1 class="main-title">은초의 프로필</h1>
+    <style>
+      h1 {
+        text-align : center;
+      }
+    </style>
+    <h2>은초의 자기소개</h2>
+    <ul class="main-profile">
+      <div class="main-profile-div">
+        <img class="profile-img" src="https://i.postimg.cc/PqkpYQ9r/IMG-1128.jpg" width = "400" height = "300" />
+        </a>
+      </div>
+      <div class="main-profile-description">
+        <li><b>  이름</b> :한은초</li>
+        <li><b>  사는 곳</b> : 경기도 의왕시</li>
+        <li><b>  생년월일</b> : 2004년 11월 17일</li>
+      </div>
+    </ul>
+    <hr />
+    <h1>은초의 <b>여행기록</b></h1>
+    <table class="best-table">
+      <th class="table-title"></th>
+      <th class="table-poster"></th>
+      <th class="table-poster2"></th>
+
+      <tr>
+        <td class="best-title"><strong>스위스</strong></td>
+        <td class="best-poster">
+          <img class="best-poster-img" src="https://i.postimg.cc/NMgTXkSv/IMG-0229.jpg" width = "300" height = "400" />
+        </td>
+        <td class="best-poster2-img">
+          <img class="best-poster2-img" src="https://i.postimg.cc/Zq7W2z00/IMG-0402.jpg" width = "300" height = "400" />
+        </td>
+      </tr>
+
+      <tr>
+        <td class="best-title"><strong>프랑스</strong></td>
+        <td class="best-poster">
+          <img class="best-poster-img" src="https://i.postimg.cc/c1MSLMMB/IMG-1757.jpg" width = "300" height = "400" />
+
+        </td>
+        <td class="best-poster2-img">
+          <img class="best-poster2-img" src="https://i.postimg.cc/XYD30jcM/IMG-1527.jpg" width = "300" height = "400" />
+        </td>
+      </tr>
+      <tr>
+        <td class="best-title"><strong>스페인</strong></td>
+        <td class="best-poster">
+          <img class="best-poster-img" src="https://i.postimg.cc/Sxmb9XVb/IMG-1870.jpg" width = "300" height = "400" />
+        </td>
+        <td class="best-poster2-img">
+          <img class="best-poster2-img" src="https://i.postimg.cc/WzsxkC66/IMG-1809.jpg" width = "300" height = "400" />
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>방명록</h1>
+    <form class="guest-book" name="guest-book" method="get">
+      <div>
+        <label for="nickname">닉네임: </label>
+        <input type="text" id="nickname" required minlength="2" />
+      </div>
+      <div>
+        <label for="name">이름: </label>
+        <input type="text" id="name" minlength="2" maxlength="5" />
+      </div>
+      <br />
+      <label for="movie-type">제일 가고 싶은 나라!</label>
+      <div class="movie-type-selection">
+        <div>
+          <input type="checkbox" name="move-type" id="type1" />
+          <span>스위스</span>
+        </div>
+        <div>
+          <input type="checkbox" name="move-type" id="type2" />
+          <span>프랑스</span>
+        </div>
+        <div>
+          <input type="checkbox" name="move-type" id="type3" />
+          <span>스페인</span>
+        </div>
+      <div class="submit-button">
+        <button class="submit">등록</button>
+        <button>취소</button>
+      </div>
+    </form>
+  </body>
+</html>
